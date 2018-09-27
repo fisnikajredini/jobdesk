@@ -3310,3 +3310,10 @@
 .button-center {
 	text-align: center !important;
 }
+.reason_list {
+	text-align: justify;
+	line-height: 38px;
+}
+.reason_list b {
+	color: #0c50b4;
+}
