@@ -3295,7 +3295,7 @@
 .hr_main_title{
 	padding-bottom: 30px;
 	font-weight: 600;
-	color: #3e5ee7;
+	color: #1766b1;
 }
 .hr_third_title {
 	padding-top: 50px;
@@ -3315,5 +3315,11 @@
 	line-height: 38px;
 }
 .reason_list b {
-	color: #0c50b4;
+	color: #1766b1;
+}
+.blue_leters b, h5, h1{
+	color : #1766b1 !important;
+}
+.black1 {
+	color: #303030;
 }
