@@ -3243,6 +3243,8 @@
 	.facebook:hover,.facebook-bg{background:#4b6ea8 !important;}
 	.twitter:hover,.twitter-bg{background:#4fd5f8 !important;}
 	.youtube:hover,.youtube-bg{background:#da1818 !important;}
+	.xing:hover,.xing-bg{background:rgb(176, 212, 0) !important;}
+	.whatsapp:hover,.whatsapp-bg{background:rgb(7, 188, 76) !important;}
 	.vimeo:hover,.vimeo-bg{background:#96d3f0 !important;}
 	.pinterest:hover,.pinterest-bg{background:#d83633 !important;}
 	.linkedin:hover,.linkedin-bg{background:#0189c3 !important;}
@@ -3320,6 +3322,20 @@
 .blue_leters b, h5, h1{
 	color : #1766b1 !important;
 }
+.white h1 {
+	color: white !important;
+}
 .black1 {
 	color: #303030;
+}
+.partners_title {
+	font-weight: 600;
+	font-size: 60px;
+}
+.partners_img {
+	display: inline !important;
+}
+.partners_img img {
+	width: 200px;
+	height: auto;
 }
