@@ -3339,3 +3339,8 @@
 	width: 200px;
 	height: auto;
 }
+.brochure_dropdown, .demo_dropdown {
+	width: 100%;
+	height: auto;
+	color: #848484;
+}

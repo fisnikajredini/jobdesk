@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Learning Management</title>
+    <meta name="description" content="Quadra Theme Oinone Version" />
+    <!--Keywords -->
+    <meta name="keywords" content="modern, creative, website, html5, bootstrap responsive, parallax, soft, front-end, designer, coming soon, account, portfolio, photographer, grid, social, modules, design, personal, faq, one page, multi-purpose, branding, studio, agency, templates, css3, carousel, slider, corporate, theme, quadra, demos, blog, shop" />
+    <meta name="author" content="GoldEyes" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1" />
+    <!--Favicon -->
+	<link rel="icon" type="image/png" href="images/favicon.png" />
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
+
+    <!-- Linearicons CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<!-- CSS Files -->
+    <link rel="stylesheet" href="css/plugins.css?v=2.2"/>
+    <!-- Main Styles -->
+
+    <link rel="stylesheet" href="css/theme.css?v=2.2"/>
+    <!-- Color Skins -->
+    <link rel="stylesheet" href="css/skins/default.css" />
+	<!-- End Page Styles -->
+
+    <style type="text/css">
+        .features .slick-slider{ height: auto !important; }
+        .features .custom-slider .slick-list{ overflow: visible !important; }
+        .features .slick-slider .slick-slide,
+        .features .slick-slider .slick-clone{ overflow: visible; position: relative; opacity: .5; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; margin:0 40px;  }
+            @media only screen and (max-width: 991px){
+                .features .slick-slider .slick-slide,
+                .features .slick-slider .slick-clone{ margin:0 10px; }
+            }
+            @media only screen and (max-width: 481px){
+                .features .slick-list{ padding: 0 10px !important; }
+            }
+        /* Shadow Effect */
+        .features .slick-slider .slick-slide:before{ height: 100%; content:''; left:40px; right: 40px; bottom:-50px; height: 0%; position: absolute; border-radius: 60%; background-color:#000; z-index: -1; filter: blur(40px); opacity: 0; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 2s; }
+        .features .slick-slider .slick-center{ opacity: 1; }
+        .features .slick-slider .slick-center:before{ opacity: 0.2 !important; height: 30%; }
+        /* Slide Texts */
+        .features .hero-slider, .hero-slider .slide{ overflow: visible; }
+        /* Border Radius */
+        .features .slick-slider .slick-slide,
+        .features .slick-slider .slick-slide img{ border-radius: 14px !important; }
+        .slick-slide{ height: auto; }
+        .features .circle-dots .slick-dots{ top:65px; }
+    </style>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i" rel="stylesheet">
+</head>
+
+<!-- BODY START -->
+<body>
+
+
+
+
+    <!-- LOADER -->
+    <div class="page-loader bg-white">
+        <div class="v-center t-center">
+            <div class="spinner">
+                <div class="spinner__item1 bg-dark"></div>
+                <div class="spinner__item2 bg-dark"></div>
+                <div class="spinner__item3 bg-dark"></div>
+                <div class="spinner__item4 bg-dark"></div>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <!-- PAGETOP -->
+    <div id="pagetop">
+        <div class="container-xl">
+            <!-- Left texts -->
+            <div class="left font-12">
+                <a href="tel:000000" class="colored-hover">+41 44 585 22 20</a>
+                <a href="mailto:contact@jobdesk.com" class="colored-hover" data-toggle="tooltip" data-placement="bottom" title="Send us an e-mail">contact@jobdesk.com</a>
+            </div>
+            <!-- Right, socials -->
+            <div class="right clearfix">
+                <a href="https://www.facebook.com/jobdesk-272082723619705/" target="_blank" class="fa fa-facebook facebook"></a>
+                <a href="https://www.linkedin.com/company/jobdesk1" target="_blank" class="fa fa-linkedin linkedin"></a>
+                <a href="https://www.instagram.com/jobdesk_/" target="_blank" class="fa fa-instagram instagram"></a>
+                <a href="#" target="_blank" class="fa fa-twitter twitter"></a>
+            </div>
+        </div>
+    </div>
+    <!--END PAGETOP -->
+
+
+
+
+
+
+    <!-- NAVIGATION -->
+    <nav id="navigation" class="white-nav static modern hover4 radius-drop box-shadow" data-offset="55">
+        <!-- Columns -->
+        <div class="columns clearfix container-xl">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logos/logo_02.png" data-second-logo="images/logos/logo_01.png" alt="Quadra Logo">
+                    <!-- Retina Logo -->
+                    <img src="images/logos/logo_01@2x.png" data-second-logo="images/logos/logo_01@2x.png" class="retina-logo" alt="Quadra Logo">
+                </a>
+            </div>
+            <!-- Right Elements; Nav Button, Language Button, Search .etc -->
+            <div class="nav-elements">
+                <ul class="clearfix nav no-ls normal">
+                    <!-- Search Button -->
+                    <li><a href="#" class="search-form-trigger"><i class="fa fa-search"></i></a></li>
+                    <!-- Item With Dropdown -->
+                    <li class="dropdown-toggle"><a href="#" class="flag-item"><img src="images/flag-usa.png" alt=""> <span>EN</span></a>
+                        <!-- Dropdown -->
+                        <ul class="dropdown-menu capitalize medium to-right">
+                            <!-- Item -->
+                            <li><a href="#" class="flag-item"><img src="images/flag-DE.png" alt=""> <span>DE</span></a></li>
+                            <!-- Item -->
+                            <li><a href="#" class="flag-item"><img src="images/flag-ar.png" alt=""> <span>AR</span></a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <!-- End Navigation Elements -->
+            <!-- Navigation Menu -->
+            <div class="nav-menu">
+                <ul class="nav clearfix uppercase">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown-toggle"><a href="products.html" class="">Products</a>
+                        <ul class="dropdown-menu to-right">
+                            <li><a href="hr.html">HR Management</a></li>
+                            <li><a href="recruitment.html">Recruitment</a></li> 
+                            <li><a href="payroll.html">Payroll Management</a></li>   
+                            <li><a href="contracts.html">Contracts</a></li>   
+                            <li><a href="learning.html" class="">Learning Management</a></li>      
+                            <li><a href="time_and_leave.html">Time & Leave Management</a></li>   
+                            <li><a href="compensation_and_benefits.html">Compensation & Benefitns</a></li>   
+                            <li><a href="workforce.html">Workforce Planing</a></li>      
+                        </ul>                           
+                    <li class="dropdown-toggle"><a href="about_us" class="">About Us</a>
+                        <ul class="dropdown-menu to-right">
+                            <li><a href="who_are_we.html">Who we are</a></li>
+                            <li><a href="mission_and_vision.html">Mission and Vision</a></li>
+                            <li><a href="meet_the_team.html">Meet the team</a></li>
+                            <li><a href="our_partners.html">Our partners</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="careers.html">Careers</a></li>
+                            <li><a href="brochures.html">Brochures</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown-toggle"><a href="pages-contact-7.html" class="">Contact us</a></li>
+                </ul>
+            </div>
+            <!-- End Navigation Menu -->
+        </div>
+        <!-- End Columns -->
+    </nav>
+    <!-- END NAVIGATION -->
+
+
+
+
+    <!-- Home -->
+    <section id="home" class="py t-center fullwidth">
+        <!-- Container -->
+        <div class="container">
+           <div class="t-center">
+               <h3 class=" hr_main_title mini-mt"><span class="playfair italic">jobdesk®</span>Learning Management System</h3>
+               <h2 class="bold-title fs-32 lh-sm">
+                    The jobdesk® LMS represents an integrated <br class="hidden-xs">
+                    environment for corporate learning and development (L&D)
+               </h2>
+           </div>
+        </div>
+           <div class="hr_third_title t-center">
+                <p class="gray6">
+                    <b>jobdesk<sup>®</sup>incorporates all required features in the day-to-day quest of L&D departments towards staff education and company growth.</b>
+                    </p>
+           </div>
+           <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Get 1st Hand Experience</a>
+        <!-- End Container -->
+    </section>
+    <!-- END Home -->
+
+
+
+    <!-- Boxes -->
+    <section class="">
+        <!-- Container -->
+        <div class="container">
+            <div class="clearfix row">
+                <!-- Box -->
+                <div class="col-md-12 col-sm-12 hr_main_photo block-img niki-py sm-mt-mobile">
+                    <img src="images/loader.gif" data-original="images/learning.png" alt="Software Image">
+                </div>
+
+            </div>
+        </div>
+        <!-- End Container -->
+    </section>
+    <!-- End Boxes -->
+    <!-- HOTSPOTS -->
+    <section class="t-center pt relative">
+        <div class="container relative zi-1">
+            <!-- Title -->
+            <h2 class="bold-title mini-mt">
+               The essence of this Swiss-made LMS is deeply rooted in the global need to and for:
+            </h2>
+        </div>
+
+        <div class="py container sm-mt hotspot">
+            <div class="row clearfix">
+            <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-desktop"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Online, On-Site, And Public Live Trainings
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-chart-line"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Staff Performance
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-chalkboard-teacher"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Learning Administration
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-bezier-curve"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Company And Vendor Linking 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-money-check-alt"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                L&D Budget Optimization
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-user-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Grading, Career Paths, and Performance-Based Assesment
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+    <div class="title-strips-over dark"></div>
+        <div class="container niki-py">
+            <h4 class="gray6">Through jobdesk®, L&D can quickly adapt to the rising trend of implementing custom-built learning programs for your company workforce; establish strong live communication with vendors and educational providers; stay updated with innovations and market requirements; keep track on the progress of your employees’ professional capabilities. 
+
+                We offer an all-in-one learning management system that is made to be deployed today – easy to use with no training required. 
+
+                Fully cloud-based and omni-device friendly, the LMS knows no limitiations, whether it’s a different time, location, or device you’re trying to access it from. 
+
+                We also understand your need for integration, hence you can easily migrate from or to any other popular software (Oracle, SAP, Microsoft, etc). 
+
+                Our LMS seeks to make learning and growing a pleasant involvement for all parties at your company through inimitable functionality, cutting-edge technology, and 24/7 support. 
+
+                Delve into the jobdesk® LMS and discover how your staff and your L&D department can maintain harmony through a minimal learning curve, a super-rich set of features, and maximum customization.
+ 
+                From the effectiveness of learning activities to the alignment of L&D forecasts are aligned with key organizational objectives.</h4>
+            <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Check The jobdesk® LMS </a>
+        </div>
+    </section>
+      
+
+    <!-- BOXES -->
+    <section class="py bg-gray1 border-1 niki border-solid border-gray3">
+        <div class="col-sm-12" style="text-align: center;">
+            <p class="grey6"><i>“Looking back, we wasted 70% of our people’s time on routine things. Little did we know that there’s a software which can do all that – 100x faster, and more precisely. I really love jobdesk HR! ”</p>
+            <p>
+                <br><b>Islam Saud</b>
+                <br><b>HR Director @ Random Company</b>
+                </i>
+            </p>
+        </div>
+    </section>
+    <!-- END BOXES -->
+
+
+
+
+
+    <!-- Modern Tabs -->
+    <section class="t-center py">
+
+        <!-- Container for tabs -->
+        <div class="container">
+            <div class="t-center">
+               <h2 class="bold-title fs-32 lh-sm">
+                   LMS Solution Overview
+               </h2>
+           </div>
+        <div class="title-strips-over dark"></div>
+        <div class="container niki-py">
+            <h4 class="gray6">Our solution delivers a comprehensive overview of the jobdesk® LMS.
+            Throughout this presentation, you will gain a thorough understanding of the basic functions of our custom-built Learning Management System, which will be developed in close collaboration with THIQAH’s L&D Department. 
+
+            Our team pays special attention to your company needs and details, thus making it imperative for us to work very closely during the initial phase of consultations and understanding your corporate requirements to its smallest detail. Further we engange known industry consultants to make sure we’re always ahead of the game.
+
+            We encourage you to follow our Table of Content in order to easily navigate this LMS Proposal. 
+            </h4>
+            <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Check The jobdesk® LMS </a>
+        </div>
+        </div>
+
+        <!-- End Container for tabs -->
+    </section>
+
+    <!-- Boxes -->
+    <section class="">
+        <!-- Container -->
+        <div class="container">
+            <div class="clearfix row">
+                <!-- Box -->
+                <div class="col-md-12 col-sm-12 hr_main_photo block-img niki-py sm-mt-mobile">
+                    <img src="images/loader.gif" data-original="images/learning3.png" alt="Software Image">
+                </div>
+
+            </div>
+        </div>
+        <!-- End Container -->
+    </section>
+    <!-- End Boxes -->
+
+    <section class="t-center py">
+
+        <!-- Container for tabs -->
+        <div class="container">
+            <div class="t-center">
+               <h2 class="bold-title fs-32 lh-sm">
+                   Our Competitive Advantage
+               </h2>
+           </div>
+        <div class="title-strips-over dark"></div>
+        <div class="container niki-py">
+            <h4 class="gray6">jobdesk® is truly unique in its cutting-edge technology and set of features. 
+
+                We are confident in our solution to serve an ever-growing base of global clients, yet humble enough to allow sound names from different industries and regions serve as a proof of the quality we possess.
+
+
+            </h4>
+            <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Check The jobdesk® LMS </a>
+        </div>
+        </div>
+
+        <!-- End Container for tabs -->
+    </section>
+    <section class="t-center pt relative">
+        <div class="container relative zi-1">
+            <!-- Title -->
+            <h2 class="bold-title mini-mt">
+               By opting for jobdesk®, you are choosing an LMS that delivers:
+            </h2>
+        </div>
+
+        <div class="py container sm-mt hotspot">
+            <div class="row clearfix">
+            <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="far fa-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                               A very natural user interface that keeps users involved without a steep learning curve
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="far fa-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Immediate technical support when you need it (24/7)
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="far fa-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                An all-inclusive set of features that augments learning, training, and all around corporate growth activities 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="far fa-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Bilingual interface
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="far fa-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Easy management for online, on-site, and public training
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="far fa-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Premise-free, cloud-based architecture intended to ensure easy operation 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="far fa-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Competitive license costs per user 
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="far fa-circle"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                All-encompassing maintenance and assistance, noticable at every step of our partnership  
+                            </h4>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+    </section>
+
+     <!-- Modern Tabs -->
+    <section class="t-center py">
+
+        <!-- Container for tabs -->
+        <div class="container">
+            <div class="t-center">
+               <h2 class="bold-title fs-32 lh-sm">
+                   Simple in Practice
+               </h2>
+           </div>
+        <div class="title-strips-over dark"></div>
+        <div class="container niki-py">
+            <h4 class="gray6">Through jobdesk®, learning and growing become a pleasant involvement for all parties. 
+
+            Providing a clean, intuitive layout that is hassle-free and has a minimal learning curve, we encourage your staff to participate in your educational programs, regardless of whether they are tech freaks or not.  
+
+            The jobdesk® LMS is being build with your staff’s needs in mind, aiming to become an integral part of your company’s path to educational growth
+        Our Learning Management System can be tailored to fit departmental requirements, allowing managers, vendorsvand attendants to customize multiple core aspects – from branding to features and tools.</h4> 
+
+            <h3 class="gray6">Compact Pricing and Budget Optimization</h3> 
+            <h4 class="gray6">
+            While growth and education certainly stand high on every enterprise list, budget and costs play a crucial role when crafting long-life plans. 
+
+            With this in mind, jobdesk® brings an unparalleled strategy for your company to optimize its budget. 
+
+            We offer cost-effective solutions that help you save money, have an unpresideted and immediate ROI and train more people for your investments. Enrollment, deployment, and training are carefully integrated into license fees that seek to minimize support costs. 
+
+ 
+            </h4>
+            <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Check The jobdesk® LMS </a>
+        </div>
+        </div>
+
+        <!-- End Container for tabs -->
+    </section>
+
+    <!-- HOTSPOTS -->
+    <section class="t-center pt relative">
+        <div class="container relative zi-1">
+            <!-- Title -->
+            <h2 class="bold-title mini-mt">
+               Benefits
+            </h2>
+            <div class="title-strips-over dark"></div>
+        </div>
+
+        <div class="py container sm-mt hotspot">
+            <div class="row clearfix">
+            <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-hand-point-right"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Develop Your Workforce
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Leverage a common, reusable framework for describing learning objectives. Define competencies attained by learner. Automatically  update competency profiles. Create learning paths and certifications to guide and manage your workforce learning and development.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-hand-point-right"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                               Tie Training to Organizational Goals
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Measure the effectiveness of training initiatives.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-hand-point-right"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                           <h5 class="bold-subtitle font-15">
+                                Cost efficiency
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Gain a content player that delivers any web-accessible content. Deploy content to a global learning community. Collaborate via forums, chats, and web conferencing
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-hand-point-right"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Simplify Administration through a Unified Catalog
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Create a single catalog for all online, offline, synchronous, and asynchronous learning. Support blended learning. Enable administrators to see the entities they create and directly edit their properties.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-hand-point-right"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Increase Efficiency by Managing Learning Content
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Assemble and deliver learning content rapidly Enable the reuse and assembly of learning content that makes use of mixed media and multiple learning modalities. Deliver the optimal blend of classroom and online training
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-hand-point-right"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Extend Solution Value by Providing Learning to Customers and Partners
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Provide self-service access to learning for customers and partners. Retain one-stop administration. Automate catalog distribution and enrollment.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-hand-point-right"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Simplify Administration by Efficiently Scheduling and Managing Resources
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Place the right resources and equipment in the right locations. Define learning event needs only once. Ensure instructors possess the necessary competencies and experience. Consolidate training initiatives on a scalable, cost effective LMS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+        <div class="">
+    <div class="title-strips-over dark"></div>
+
+            <h4 class="gray6">Adjust your HR strategy for easier management</h4>
+            <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Check The jobdesk® LMS </a>
+        </div>
+    </section>
+    <!-- END ABOUT -->
+
+    <!-- HOTSPOTS -->
+    <section class="t-center pt relative">
+        <div class="container relative zi-1">
+            <!-- Title -->
+            <h2 class="bold-title mini-mt">
+              Built-in Features for Improved Learning & Development
+            </h2>
+            <div class="title-strips-over dark"></div>
+            <h5 class="gray6">jobdesk® provides a centralized ecosystem for creating content, delivering online trainings, assessing learners’ performance, covering administrative needs associated with education, and permitting clients to collaborate</h5>
+        </div>
+
+        <div class="py container sm-mt hotspot">
+            <div class="row clearfix">
+            <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Courses 
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Built primarily to support your  e-learning process, the jobdesk® LMS integrates easily with your preferred course provider, downloading all information from vendors and classifying them according to your needs – length, industry, certification, instructor and more. This is done in real time, so your L&D department and all assigned parties are kept well informed about available learning resources. In addition to self-paced online course, your inhouse or external trainers are granted the opportunity to choose the type of course that best suits their training style such as instructor-led, blended, or self-paced. You can teach multiple sections of a course, and use our unique course sync feature to push changes from the master copy of a course to the others. 
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Content Authoring and Routing 
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Our refined content authoring instruments permit you to create rich, attractive modules without requiring any technical knowledge. Upload and embed any type of media, including audio, video, office documents, and more. Speaking of self-built courses, using our sophisticated interface, L&D departments can rearrange modules and their sections using drag and drop, and go through sections in a module using our simple built-in navigation. You can track module advancement anytime in each module using the dashboard.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Attractive Visual Dashboards 
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                               We provide visual tile-based dashboards that grant users the opportunity to get access to the most important information for each course type.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Visual Course Collection
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                               Exhibit classes in an attractive visual collection that aids your team to keep them organized and provides an overview of useful information for learners.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Gamification 
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Are you willing to go past the point of conventional learning and make a course more captivating and flexible? Our gamification tool is here to let you define rules for when points and badges should be awarded to learners by performing certain tasks. Students are driven to relate with course material when your content is combined with gamified elements such as rewards, badges, and leaderboards.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Create, Amend, Enable, And Disable Rules
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                               Your L&D department has a plethora of needs, all varying between each other. What works for one department, may not be suitable for the next one, and vice-versa. Hence, we’ve built the option of giving you total control over every aspect of a course by enabling actions based on rules defined by you. Instances of such rules include, but are not limited to: awarding badges, adding learners to groups, enrolling learners in courses, locking/unlocking modules, sending custom messages, awarding certificates, and more.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Learner Goals
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Increase learner commitment by setting the right goal with your courses. This tool allows you to motivate attendees by registering them for the right next course that can lead to rewards and certifications. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Branding
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Your brand is super-important to your company. And so it’s to us. That’s why we’ve thought about an option that allows you to amend core elements of your visual identity, enabling custom logo upload, theme, color scheme, and more. Delve into the world of jobdesk® and allow your team designers and brand managers to play with such things as custom CSS and HTML. 
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Course Curriculum and Skills 
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Different learners can be at different skill levels. Hence the option of aligning content and assessments with learning outcomes.We offer the option of assigning beginner, intermediate, and expert training material to your base of learners. Have full access over every aspect of the learning material at your company, from curriculum to training benefits and objectives. Moreover, use the LMS to adapt training to melpoyee needs and offer a smooth progress process at your organization.
+
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Customized Reporting 
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Oversee the training of your staff and stay up to date with the success through a collection of tailored reports and graphical diagrams that will distinctly showcase training compliance and achievements to make sure that everyone is on track. Schedule automatic delivery of reports to selected team managers
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Course Compilation And Creation 
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                Easily compile courses using your current, purchased, or recently produced content. The jobdesk®  LMS can accept content in all popular formats, including SCORM, Video, Audio, PDFs, Flash, HTML5, Web Links, and any other web resource. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-10 no-pm">
+                            <h5 class="bold-subtitle font-15">
+                                Mobile Friendly
+                            </h5>
+                            <p class="mini-mt gray7 font-13">
+                                We believe that e-learning should go beyond any limitation. Not only do we offer a completely cloud-based LMS that is accessible from any global location, but we’ve worked on providing a product that is also available on all devices. The jobdesk® LMS is entirely mobile-friendly and can be accessed from your device of choice. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </div>
+
+    </section>
+
+    <!-- End Classic Tabs -->
+
+
+
+
+  <!-- FOOTER -->
+    <footer id="footer" class="classic_footer">
+        <!-- Container -->
+        <div class="container footer-body">
+            <div class="row clearfix">
+                <!-- Column -->
+                <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
+                    <!-- Title -->
+                    <a href="index.html">
+                    <img src="images/logos/logo_02.png" data-second-logo="images/logos/logo_01.png" alt="jobdesk® Logo">
+                    
+                </a>
+                    <h6 class="xs-mt bold gray8"><i class="fa fa-map-marker mini-mr"></i>OUR ADDRESS</h6>
+                    <p class="mini-mt">Zürcherstrasse 86a CH-8852<br class="hidden-xs"> Altendorf Switzerland</p>
+                    <!-- Google Map -->
+                    <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2711.0752643965666!2d8.812811216007155!3d47.195539379159584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ab69b202dfcf5%3A0xa0d26b4704def3ac!2zWsO8cmNoZXJzdHJhc3NlIDg2YSwgODg1MiBBbHRlbmRvcmYsINCo0LLQsNGY0YbQsNGA0LjRmNCw!5e0!3m2!1smk!2smk!4v1538037994097" data-iframe="true" class="lightbox underline-hover colored-hover">
+                        Find us on Google Map
+                    </a>
+                    <h6 class="xs-mt bold gray8"><i class="fa fa-envelope mini-mr"></i>CONTACT US</h6>
+                    <p class="mini-mt">Phone: <a href="tel:+0123456790" class="underline-hover colored-hover">+41 44 585 22 20</a></p>
+                    <a href="mailto:contact@jobdesk.com" class="underline-hover colored-hover">contact@jobdesk.com</a>
+                </div>
+                <!-- Column -->
+                <div class="col-md-3 col-sm-6 col-xs-12 all-block-links sm-mb-mobile">
+                    <h6 class="uppercase white extrabold sm-mb">Products</h6>
+                    <!-- You can edit footer-news.html file in js/ajax folder. Will be changed on all website -->
+                    <div data-ajax-load="js/ajax/footer-news.html"><i class="fa fa-refresh fa-2x fa-spin"></i></div> 
+                </div>
+                <!-- End Column -->
+                <!-- Column -->
+                <div class="col-md-3 col-sm-6 col-xs-12 all-block-links sm-mb-mobile">
+                    <h6 class="uppercase white extrabold sm-mb">About us</h6>
+                    <div data-ajax-load="js/ajax/footer-about.html"><i class="fa fa-refresh fa-2x fa-spin"></i></div> 
+                </div>
+                <!-- End Column -->
+                <!-- Column -->
+                <div class="col-md-3 col-sm-6 col-xs-12">
+                    <!-- Title -->
+                    <h5 class="uppercase white extrabold no-pm">SUBSCRIBE US</h5>
+                    <!-- Sub Title -->
+                    <div id="newsletter-form" class="footer-newsletter clearfix xs-mt">
+                        <form id="newsletter_form" name="newsletter_form" method="post" action="php/newsletter.php">
+                            <input type="email" name="n-email" id="n-email" required placeholder="Add your E-Mail address" class="font-12 radius-lg form-control">
+                            <button type="submit" id="n-submit" name="submit" class="btn-lg fullwidth radius-lg bg-colored2 gray4 qdr-hover-6 click-effect bold font-12">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                    <!-- End Form -->
+                    <h6 class="xs-mt xxs-mb bold gray8">FOLLOW US</h6>
+                    <a href="#" class="icon-xs radius bg-dark facebook white-hover slow1"><i class="fa fa-facebook"></i></a>
+                    <a href="#" class="icon-xs radius bg-dark twitter white-hover slow1"><i class="fa fa-twitter"></i></a>
+                    <a href="#" class="icon-xs radius bg-dark instagram white-hover slow1"><i class="fa fa-instagram"></i></a>
+                    <a href="#" class="icon-xs radius bg-dark linkedin white-hover slow1"><i class="fa fa-linkedin"></i></a>
+                </div>
+                <!-- End Column -->
+            </div>
+        </div>
+        <!-- End Container -->
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row clearfix calculate-height t-center-xs">
+                    <!-- Bottom Note -->
+                    <div class="col-sm-12 col-xs-12 table-im t-center height-auto-mobile t-center-xs xxs-mt-mobile">
+                        <p class="v-middle">
+                            <a href="terms" target="_blank" class="gray6-hover underline-hover">Term and Condition</a> | 
+                            <a href="privacy" target="_blank" class="gray6-hover underline-hover">Privacy Policy</a> <br class="hidden-xs">
+                            © 2018. Powered By 
+                            <a href="https://jobdesk.com" target="_blank" class="colored-hover underline-hover">jobdesk®</a>.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- END FOOTER -->
+
+
+    <!-- Quick Contact Form -->
+    <div class="quick-contact-form border-colored">
+        <h5 class="uppercase t-center extrabold">Drop us a message</h5>
+        <p class="t-center normal">You're in the right place! Just drop us a message. How can we help?</p>
+        <!-- Contact Form -->
+        <form class="quick_form" name="quick_form" method="post" action="php/quick-contact-form.php">
+            <!-- Name -->
+            <input type="text" name="qname" id="qname" required placeholder="Name" class="no-mt">
+            <!-- Email -->
+            <input type="email" name="qemail" id="qemail" required placeholder="E-Mail">
+            <!-- Message -->
+            <textarea name="qmessage" id="qmessage" required placeholder="Message"></textarea>
+            <!-- Send Button -->
+            <button type="submit" id="qsubmit" class="bg-colored white qdr-hover-6 extrabold">SEND</button>
+            <!-- End Send Button -->
+        </form>
+        <!-- End Form -->
+        <a href="https://themeforest.net/user/goldeyes#contact" target="_blank" class="inline-block colored-hover uppercase extrabold h6 no-pm qdr-hover-5">Or see contact page</a>
+    </div>
+    <!-- Contact us button -->
+    <a href="#" class="drop-msg click-effect dark-effect"><i class="fa fa-envelope-o"></i></a>
+    <!-- Back To Top -->
+    <a id="back-to-top" href="#top"><i class="fa fa-angle-up"></i></a>
+
+
+
+
+
+    <!-- SEARCH FORM FOR NAV -->
+    <div class="fs-searchform">
+        <form id="fs-searchform" class="v-center container" action="search-results.html" method="get">
+            <!-- Input -->
+            <input type="search" name="q" id="q" placeholder="Search on website.com" autocomplete="off">
+            <!-- Search Button -->
+            <button type="submit">
+                <i class="fa fa-search"></i>
+            </button>
+        </form>
+        <div class="form-bg"></div>
+    </div>
+    <!-- END SEARCH FORM -->
+
+    <!-- Messages for contact form -->
+    <div id="error_message" class="clearfix">
+        <i class="fa fa-warning"></i>
+        <span>Validation error occured. Please enter the fields and submit it again.</span>
+    </div>
+    <!-- Submit Message -->
+    <div id="submit_message" class="clearfix">
+        <i class="fa fa-check"></i>
+        <span>Thank You ! Your email has been delivered.</span>
+    </div>
+
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- MAIN SCRIPTS - Classic scripts for all theme -->
+    <script type="text/javascript" src="js/scripts.js?v=2.2"></script>
+    <!-- END JS FILES -->
+
+</body>
+<!-- Body End -->
+</html>

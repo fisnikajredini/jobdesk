@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Payroll Management</title>
-    <meta name="description" content="Quadra is a super easy customizing, creative, professional design, bootstrap responsive and high performance website template and 700+ pages for multi-purpose using to agencies, portfolio, photographers and your all wishes." />
+    <meta name="description" content="Quadra Theme Oinone Version" />
     <!--Keywords -->
     <meta name="keywords" content="modern, creative, website, html5, bootstrap responsive, parallax, soft, front-end, designer, coming soon, account, portfolio, photographer, grid, social, modules, design, personal, faq, one page, multi-purpose, branding, studio, agency, templates, css3, carousel, slider, corporate, theme, quadra, demos, blog, shop" />
     <meta name="author" content="GoldEyes" />
@@ -15,21 +15,51 @@
     <!-- Apple Touch Icon -->
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png"/>
 
+    <!-- Linearicons CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <!-- CSS Files -->
     <link rel="stylesheet" href="css/plugins.css?v=2.2"/>
     <!-- Main Styles -->
+
     <link rel="stylesheet" href="css/theme.css?v=2.2"/>
     <!-- Color Skins -->
     <link rel="stylesheet" href="css/skins/default.css" />
     <!-- End Page Styles -->
 
+    <style type="text/css">
+        .features .slick-slider{ height: auto !important; }
+        .features .custom-slider .slick-list{ overflow: visible !important; }
+        .features .slick-slider .slick-slide,
+        .features .slick-slider .slick-clone{ overflow: visible; position: relative; opacity: .5; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; transition: all 0.5s; margin:0 40px;  }
+            @media only screen and (max-width: 991px){
+                .features .slick-slider .slick-slide,
+                .features .slick-slider .slick-clone{ margin:0 10px; }
+            }
+            @media only screen and (max-width: 481px){
+                .features .slick-list{ padding: 0 10px !important; }
+            }
+        /* Shadow Effect */
+        .features .slick-slider .slick-slide:before{ height: 100%; content:''; left:40px; right: 40px; bottom:-50px; height: 0%; position: absolute; border-radius: 60%; background-color:#000; z-index: -1; filter: blur(40px); opacity: 0; -webkit-transition: all 0.2s; -moz-transition: all 0.2s; transition: all 2s; }
+        .features .slick-slider .slick-center{ opacity: 1; }
+        .features .slick-slider .slick-center:before{ opacity: 0.2 !important; height: 30%; }
+        /* Slide Texts */
+        .features .hero-slider, .hero-slider .slide{ overflow: visible; }
+        /* Border Radius */
+        .features .slick-slider .slick-slide,
+        .features .slick-slider .slick-slide img{ border-radius: 14px !important; }
+        .slick-slide{ height: auto; }
+        .features .circle-dots .slick-dots{ top:65px; }
+    </style>
+
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400i,700i" rel="stylesheet">
 </head>
 
 <!-- BODY START -->
 <body>
+
+
 
 
     <!-- LOADER -->
@@ -44,14 +74,15 @@
         </div>
     </div>
 
+    
 
-     <!-- PAGETOP -->
+    <!-- PAGETOP -->
     <div id="pagetop">
         <div class="container-xl">
             <!-- Left texts -->
             <div class="left font-12">
                 <a href="tel:000000" class="colored-hover">+41 44 585 22 20</a>
-                <a href="mailto:support@goldeyestheme.com" class="colored-hover" data-toggle="tooltip" data-placement="bottom" title="Send us an e-mail">contact@jobdesk.com</a>
+                <a href="mailto:contact@jobdesk.com" class="colored-hover" data-toggle="tooltip" data-placement="bottom" title="Send us an e-mail">contact@jobdesk.com</a>
             </div>
             <!-- Right, socials -->
             <div class="right clearfix">
@@ -69,7 +100,7 @@
 
 
 
-            <!-- NAVIGATION -->
+    <!-- NAVIGATION -->
     <nav id="navigation" class="white-nav static modern hover4 radius-drop box-shadow" data-offset="55">
         <!-- Columns -->
         <div class="columns clearfix container-xl">
@@ -87,13 +118,13 @@
                     <!-- Search Button -->
                     <li><a href="#" class="search-form-trigger"><i class="fa fa-search"></i></a></li>
                     <!-- Item With Dropdown -->
-                    <li class="dropdown-toggle"><a href="#" class="flag-item"><img src="images/flag-usa.png" alt=""> <span>En</span></a>
+                    <li class="dropdown-toggle"><a href="#" class="flag-item"><img src="images/flag-usa.png" alt=""> <span>EN</span></a>
                         <!-- Dropdown -->
                         <ul class="dropdown-menu capitalize medium to-right">
                             <!-- Item -->
-                            <li><a href="#" class="flag-item"><img src="images/flag-uk.png" alt=""> <span>UK</span></a></li>
+                            <li><a href="#" class="flag-item"><img src="images/flag-DE.png" alt=""> <span>DE</span></a></li>
                             <!-- Item -->
-                            <li><a href="#" class="flag-item"><img src="images/flag-france.png" alt=""> <span>FR</span></a></li>
+                            <li><a href="#" class="flag-item"><img src="images/flag-ar.png" alt=""> <span>AR</span></a></li>
                         </ul>
                     </li>
                 </ul>
@@ -102,8 +133,8 @@
             <!-- Navigation Menu -->
             <div class="nav-menu">
                 <ul class="nav clearfix uppercase">
-                    <li><a href="demo-oinone-01.html">Home</a></li>
-                    <li class="dropdown-toggle"><a href="products.html" class="stay">Products</a>
+                    <li><a href="index.html">Home</a></li>
+                    <li class="dropdown-toggle"><a href="products.html" class="">Products</a>
                         <ul class="dropdown-menu to-right">
                             <li><a href="hr.html">HR Management</a></li>
                             <li><a href="recruitment.html">Recruitment</a></li> 
@@ -114,7 +145,7 @@
                             <li><a href="compensation_and_benefits.html">Compensation & Benefitns</a></li>   
                             <li><a href="workforce.html">Workforce Planing</a></li>      
                         </ul>                           
-                    <li class="dropdown-toggle"><a href="about_us" class="stay">About Us</a>
+                    <li class="dropdown-toggle"><a href="about_us" class="">About Us</a>
                         <ul class="dropdown-menu to-right">
                             <li><a href="who_are_we.html">Who we are</a></li>
                             <li><a href="mission_and_vision.html">Mission and Vision</a></li>
@@ -133,52 +164,205 @@
         </div>
         <!-- End Columns -->
     </nav>
+    <!-- END NAVIGATION -->
 
 
 
 
-
-
-    <!-- CONTENT -->
-    <section id="home" class="lg-py t-center white fullwidth">
-        <!-- Background image - you can choose parallax ratio and offset -->
-        <div class="bg-parallax" data-stellar-ratio="0.8" data-stellar-vertical-offset="0" data-background="images/payroll.jpg"></div>
+    <!-- Home -->
+    <section id="home" class="py t-center fullwidth">
         <!-- Container -->
-        <div class="container skrollr" data-0="opacity:1; transform:translateY(0px);" data-700="opacity:0; transform:translateY(190px);">
-           <div class="t-center blue_leters">
-               <h1 class="light partners_title">Payroll Management</h1>
-               <p>
-                </p>
+        <div class="container">
+           <div class="t-center">
+               <h3 class=" hr_main_title mini-mt"><span class="playfair italic">jobdesk®</span> Payroll Management</h3>
+               <h2 class="bold-title fs-32 lh-sm">
+                    Enjoy Payroll-ing your Way 
+               </h2>
            </div>
+        </div>
+           <div class="container hr_third_title t-center">
+                <p class="gray6">
+                    jobdesk® offers you the most inovative payroll,fully automated and entierly user friendly
+                    </p>
+           </div>
+           <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Get a FREE Demo</a>
+        <!-- End Container -->
+    </section>
+    <!-- END Home -->
+
+
+
+    <!-- Boxes -->
+    <section class="">
+        <!-- Container -->
+        <div class="container niki-py">
+            <div class="clearfix row">
+                <!-- Box -->
+                <div class="col-md-12 col-sm-12 hr_main_photo block-img sm-mt-mobile">
+                    <img src="images/loader.gif" data-original="images/payroll.png" alt="Software Image">
+                </div>
+
+            </div>
         </div>
         <!-- End Container -->
     </section>
-    <!-- END CONTENT -->
+    <!-- End Boxes -->
 
 
-    <!-- TEXTS -->
-    <section id="fullwidth" class="py container-lg lh-xl black1">
+    <!-- Modern Tabs -->
+    <section class="t-center py">
 
-        <!-- Paragraph with Dropcap -->
+        <!-- Container for tabs -->
         <div class="container">
-            <div class="t-center niki-py"><h3>Payroll Software Benefits:</h3></div>
-            <ul>
-                <h5>1 Accuracy/Certainity</h5>
-                <li><b>• Avoiding making mistakes as it contains comprehensive validation checks and procedures that reduce the chances of costly errors occurring.</b></li>
-                <h5>2.  Data Management and Security</h5>
-                <li><b>• Storing all the data on the top of your finger, while being secured from sharing the information with third parties.</b></li>
-                <h5>3.  Automatically calculation of taxes, bonuses, expenses etc.</h5>
-                <li><b>• Everything taken care from a single platform with the opportunity of dozens of reports on daily, weekly, monthly and yearly basis. It gives the flexibility of comprehensive and tailored created reports.</b></li>
-                <h5>4.  Time and cost saving</h5>
-                <li><b>• jobdesk® Payroll is entirely automated and almost everything is done in a smooth and fashionable way.</b></li>
-                <h5>5.  Simplicity/Easily accessible</h5>
-                <li><b>• The system is user-friendly and easily accessible from any device.</b></li>
-                <h5>6.  Planning of the future costs</h5>
-                <li><b>• In case your department or company needs to carefully plan future costs and have accurate reports, the system does that for you.</b></li>
-            </ul>
+            <div class="t-center">
+               <h2 class="bold-title fs-32 lh-sm">
+                    Use <span class="playfair italic">jobdesk®</span> Payroll or Consult with Expert
+               </h2>
+               <div class="title-strips-over dark"></div>
+           </div>
+        </div>
+        <!-- End Container for tabs -->
+    </section>
+
+    <div class="boxes niki-py t-left py">
+        <div class="row">
+            <!-- Box -->
+                <div class="col-md-3 button-center col-12 sm-mt-mobile"></div>
+                <div class="col-md-3 button-center col-12 sm-mt-mobile">
+                    <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Get a FREE Consultation</a>
+                </div>
+                <div class="col-md-3 button-center col-12 sm-mt-mobile">
+                    <a href="#" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">Get a FREE Demo</a>
+                </div>
+                <div class="col-md-3 button-center col-12 sm-mt-mobile"></div>
+        </div>
+    </div>
+    <!-- End Classic Tabs -->
+     <!-- HOTSPOTS -->
+    <section class="t-center pt relative">
+        <div class="container relative zi-1">
+            <!-- Title -->
+            <h2 class="bold-title mini-mt">
+               Payroll Management Benefits:
+            </h2>
+            <div class="title-strips-over dark"></div>
+        </div>
+
+        <div class="py container sm-mt hotspot">
+            <div class="row clearfix">
+            <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-bullseye"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Accuracy/ Certainty 
+                            </h4>
+                            <p class="mini-mt gray7 font-15">
+                                Avoiding making mistakes as it contains comprehensive validation checks and procedures that reduce the chances of costly errors occurring.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-lock"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Data Management and Security
+                            </h4>
+                            <p class="mini-mt gray7 font-15">
+                                Storing all the data on the top of your finger, while being secured from sharing the information with third parties.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-calculator"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Automatically calculation of taxes, bonuses, expenses etc.
+                            </h4>
+                            <p class="mini-mt gray7 font-15">
+                                Everything taken care from a single platform with the opportunity of dozens of reports on daily, weekly, monthly and yearly basis. It gives the flexibility of comprehensive and tailored created reports.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-money-check-alt"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Time and cost saving
+                            </h4>
+                            <p class="mini-mt gray7 font-15">
+                                jobdesk® Payroll is entirely automated and almost everything is done in a smooth and fashionable way.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fas fa-universal-access"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Simplicity/Easily accessible
+                            </h4>
+                            <p class="mini-mt gray7 font-15">
+                                The system is user-friendly and easily accessible from any device.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                <div class="col-md-4 col-12 xs-mt-mobile hr_six_icons">
+                    <div class="row no-mx">
+                        <div class="col-2 mini-pt no-pm">
+                            <h3><i class="fab fa-telegram-plane"></i></h3>
+                        </div>
+                        <div class="col-10 no-pm">
+                            <h4 class="bold-subtitle font-19">
+                                Planning of the future costs
+                            </h4>
+                            <p class="mini-mt gray7 font-15">
+                                In case your department or company needs to carefully plan future costs and have accurate reports, the system does that for you.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+               </div>
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- BOXES -->
+    <section class="py bg-gray1 border-1 border-solid border-gray3">
+        <div class="col-sm-12" style="text-align: center;">
+            <p class="grey6"><i>“Looking back, we wasted 70% of our people’s time on routine things. Little did we know that there’s a software which can do all that – 100x faster, and more precisely. I really love jobdesk HR! ”</p>
+            <p>
+                <br><b>Islam Saud</b>
+                <br><b>HR Director @ Random Company</b>
+                </i>
+            </p>
         </div>
     </section>
-    <!-- END TEXTS -->
+    <!-- END BOXES -->
+
+
 
 
 
@@ -191,7 +375,7 @@
                 <div class="col-md-3 col-sm-6 col-xs-12 sm-mb-mobile">
                     <!-- Title -->
                     <a href="index.html">
-                    <img src="images/logos/logo_02.png" data-second-logo="images/logos/logo_01.png" alt="Quadra Logo">
+                    <img src="images/logos/logo_02.png" data-second-logo="images/logos/logo_01.png" alt="jobdesk® Logo">
                     
                 </a>
                     <h6 class="xs-mt bold gray8"><i class="fa fa-map-marker mini-mr"></i>OUR ADDRESS</h6>
@@ -202,7 +386,7 @@
                     </a>
                     <h6 class="xs-mt bold gray8"><i class="fa fa-envelope mini-mr"></i>CONTACT US</h6>
                     <p class="mini-mt">Phone: <a href="tel:+0123456790" class="underline-hover colored-hover">+41 44 585 22 20</a></p>
-                    <a href="mailto:goldeyestheme@gmail.com" class="underline-hover colored-hover">contact@jobdesk.com</a>
+                    <a href="mailto:contact@jobdesk.com" class="underline-hover colored-hover">contact@jobdesk.com</a>
                 </div>
                 <!-- Column -->
                 <div class="col-md-3 col-sm-6 col-xs-12 all-block-links sm-mb-mobile">
@@ -246,10 +430,10 @@
                     <!-- Bottom Note -->
                     <div class="col-sm-12 col-xs-12 table-im t-center height-auto-mobile t-center-xs xxs-mt-mobile">
                         <p class="v-middle">
-                            <a href="#" target="_blank" class="gray6-hover underline-hover">Term and Condition</a> | 
-                            <a href="#" target="_blank" class="gray6-hover underline-hover">Privacy Policy</a> <br class="hidden-xs">
+                            <a href="terms" target="_blank" class="gray6-hover underline-hover">Term and Condition</a> | 
+                            <a href="privacy" target="_blank" class="gray6-hover underline-hover">Privacy Policy</a> <br class="hidden-xs">
                             © 2018. Powered By 
-                            <a href="https://themeforest.net/item/quadra-creative-multipurpose-template/21409528" target="_blank" class="colored-hover underline-hover">jobdesk®</a>.
+                            <a href="https://jobdesk.com" target="_blank" class="colored-hover underline-hover">jobdesk®</a>.
                         </p>
                     </div>
                 </div>
@@ -289,7 +473,7 @@
 
     <!-- SEARCH FORM FOR NAV -->
     <div class="fs-searchform">
-        <form id="fs-searchform" class="v-center container" action="pages-search-results.html" method="get">
+        <form id="fs-searchform" class="v-center container" action="search-results.html" method="get">
             <!-- Input -->
             <input type="search" name="q" id="q" placeholder="Search on website.com" autocomplete="off">
             <!-- Search Button -->
