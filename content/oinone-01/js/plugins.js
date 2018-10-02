@@ -72,7 +72,7 @@ $(window).on('load', function() {
             // Marker Images for first and second
             image = 'images/marker2.png',
             // Your Title and description
-            contentString =  '<h4>' + 'Headquarters' + '</h4><p>' + 'Your description is here.' +'</p>',
+            contentString =  '<h4>' + 'Headquarters' + '</h4><p>' + 'Of jobdesk®.' +'</p>',
             //Marker Position and image selector
             marker = new google.maps.Marker({ position: myposition, map: map, icon: image }),
             // Infowindow
