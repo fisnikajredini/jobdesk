@@ -72,9 +72,6 @@
                     <div class="col-7 font-14 t-left xs-py xs-pl">
                         <h5 class="bold">jobdesk</h5>
                         <!-- Map -->
-                        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2151.7877414574023!2d8.813094519985281!3d47.19538747699076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ab69b202dfcf5%3A0xa0d26b4704def3ac!2sZ%C3%BCrcherstrasse+86a%2C+8852+Altendorf%2C+Switzerland!5e0!3m2!1sen!2smk!4v1537868261998">
-                            Find us on Google Map
-                        </a>
                         <!-- Details -->
                         <div class="font-13">
                             <p class="xs-mt">Zürcherstrasse 86a CH-8852, Altendorf</p>
@@ -94,11 +91,11 @@
                     <!-- Search Button -->
                     <li><a href="#" class="search-form-trigger"><i class="fa fa-search"></i></a></li>
                     <!-- Item With Dropdown -->
-                    <li class="dropdown-toggle"><a href="#" class="flag-item"><img src="images/flag-usa.png" alt=""> <span>EN</span></a>
+                    <li class="dropdown-toggle"><a href="#" class="flag-item"><img src="images/flag-uk.png" alt=""> <span>EN</span></a>
                         <!-- Dropdown -->
                         <ul class="dropdown-menu capitalize medium to-right">
                             <!-- Item -->
-                            <li><a href="#" class="flag-item"><img src="images/flag-DE.png" alt=""> <span>DE</span></a></li>
+                            <li><a href="#" class="flag-item"><img src="images/flag-DE.png" alt=""> <span>CH</span></a></li>
                             <!-- Item -->
                             <li><a href="#" class="flag-item"><img src="images/flag-ar.png" alt=""> <span>AR</span></a></li>
                         </ul>
@@ -110,10 +107,10 @@
             <div class="nav-menu">
                 <ul class="nav clearfix uppercase">
                     <li><a href="index.html">Home</a></li>
-                    <li class="dropdown-toggle"><a href="products.html" class="">Products</a>
+                    <li class="dropdown-toggle"><a href="products.html" class="stay">Products</a>
                         <ul class="dropdown-menu to-right">
                             <li><a href="hr.html">HR Management</a></li>
-                            <li><a href="recruitment.html">Recruitment</a></li> 
+                            <li><a href="recruitment.html">Recruiter</a></li> 
                             <li><a href="payroll.html">Payroll Management</a></li>   
                             <li><a href="contracts.html">Contracts</a></li>   
                             <li><a href="learning.html" class="">Learning Management</a></li>      
@@ -121,7 +118,7 @@
                             <li><a href="compensation_and_benefits.html">Compensation & Benefitns</a></li>   
                             <li><a href="workforce.html">Workforce Planing</a></li>      
                         </ul>                           
-                    <li class="dropdown-toggle"><a href="about_us" class="">About Us</a>
+                    <li class="dropdown-toggle"><a href="about_us" class="stay">About Us</a>
                         <ul class="dropdown-menu to-right">
                             <li><a href="who_are_we.html">Who we are</a></li>
                             <li><a href="mission_and_vision.html">Mission and Vision</a></li>
@@ -134,22 +131,12 @@
                         </ul>
                     </li>
                     <li class="dropdown-toggle"><a href="pages-contact-7.html" class="">Contact us</a></li>
+                    <li><a href="demo.html" target="_blank" class="demo-button">Get FREE Demo</a></li>
                 </ul>
             </div>
             <!-- End Navigation Menu -->
         </div>
         <!-- End Columns -->
-        <!-- Extra, Second navigation bottom of the #navigation-->
-        <div id="extranav" data-showme="#about" data-hideme="#contact" class=" font-11 white uppercase bold"> 
-            <!-- Left Text -->
-            <!-- Nav menu -->
-            <div class="nav-menu f-right w-auto t-right">
-                <ul class="nav clearfix">
-                    <li><a href="demo.html" target="_blank" class="bg-default">Get FREE Demo</a></li>
-                </ul>
-            </div>
-        </div> 
-        <!-- End Extra Navigation -->
 
     </nav>
     <!-- END NAVIGATION -->
@@ -188,7 +175,7 @@
                         Integrated <br class="hidden-xs">
                         Human Capital Solution
                     </h3>
-                    <a href="products.html" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">GET STARTED</a>
+                    <a href="brochures.html" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">GET STARTED</a>
                 </div>
             </div>
         </div>
@@ -210,7 +197,7 @@
             <h2 class="playfair gray7 sm-mb">               
              We Make Lives Simpler, Human Capital Easier, And Companies Better <br class="hidden-xs">
             </h2>
-            <a href="who_we_are.html" target="_blank" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">GET TO KNOW JOBDESK<sup>®</sup></a>
+            <a href="who_are_we.html" target="_blank" class="lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-13 xs-mt inline-block">GET TO KNOW JOBDESK<sup>®</sup></a>
             <!-- Strip -->
             <div class="title-strips-over dark"></div>
 
@@ -305,7 +292,7 @@
                         Your Vision, <br class="hidden-xs">
                         Our Mission.
                     </h1>
-                    <a href="pages-contact-7.html" onclick="return false;" class="quick-contact-form-trigger bold lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-12 xs-mt inline-block">
+                    <a href="#" onclick="return false;" class="quick-contact-form-trigger bold lg-btn long-btn white bg-colored qdr-hover-6 click-effect font-12 xs-mt inline-block">
                         ASK A QUESTION
                     </a>
                 </div>
@@ -532,9 +519,14 @@
 
         <!-- Map -->
         <div class="google-map">
-            <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
-            <!-- Google Map ID -->
-            <div id="google_map"></div>
+                <iframe
+                    width="100%"
+                    height="800px"
+                    frameborder="0"
+                    style="border:0"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2711.0752643965666!2d8.812811216007155!3d47.195539379159584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ab69b202dfcf5%3A0xa0d26b4704def3ac!2zWsO8cmNoZXJzdHJhc3NlIDg2YSwgODg1MiBBbHRlbmRvcmYsINCo0LLQsNGY0YbQsNGA0LjRmNCw!5e0!3m2!1smk!2smk!4v1538561164176"
+                    allowfullscreen>
+                </iframe>
         </div>
 
 
